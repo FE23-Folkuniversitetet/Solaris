@@ -1,6 +1,3 @@
-# Solaris
-Vanilla JS-projekt om vårt solsystem
-
 ![poster](./poster.png)
 
 # Solaris
