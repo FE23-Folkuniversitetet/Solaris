@@ -21,9 +21,9 @@ https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com
 
 **Authentication**
 
-API:et är låst med en API-nyckel. Alla GET-request utan en sådan kommer generar en ```401```. 
+API:et är låst med en API-nyckel. Alla GET-requests utan en sådan kommer generar en ```401```. 
 
-För att få läsrättigheter måste du i din request bifoga headern ```x-zocom``` med en giltig API-nyckel.
+För att få läsrättigheter måste du i din request bifoga headern ```x-zocom``` med en giltig API-nyckel. 
 
 Ex. 
 
@@ -32,6 +32,10 @@ let resp = await fetch('https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
     method: 'GET',
     headers: {'x-zocom', '<solaris-key-here>'}
 })
+```
+**Godkänt**
+```
+API-nyckel/solaris-key: solaris-2ngXkR6S02ijFrTP
 ```
 
 ## Modell
@@ -74,17 +78,18 @@ let resp = await fetch('https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
 
 För *Godkänt*: 
 + All UI-design är gjord med CSS (bilder är inte tillåtna)
++ Koden innehåller kommentarer som förklarar 
 
 För *Väl Godkänt*:
 + Samtliga kriterier för Godkänt är uppfyllda. 
 + Koden är uppdelad i moduler med en kommentar i varje modul som förklarar dess syfte.
-+ API:nyckeln hämtas via metoden POST (den är *inte* hårdkodad)
++ API:nyckeln hämtas med metoden POST (den är *inte* hårdkodad)
 
 ## Inlämning
 
-Inlämning sker via Azomo. Ladda upp ditt projekt på Github. Gå sedan in på Azomo och kopiera in länken till ditt repo i modulen som heter Individuell examination. 
+Inlämning sker via Azomo. Ladda upp ditt projekt på Github, gå sedan in på Azomo och kopiera in länken till ditt repo i modulen som heter Individuell examination. 
 
-Inlämning senast: 1/3, kl. 23:59
+Inlämning senast: 1/3 kl. 23:59
 
 
 
