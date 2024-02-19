@@ -34,10 +34,15 @@ let resp = await fetch('https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
 })
 ```
 <details>
-  <summary>API-nyckel (solaris-key)</summary>
+  <summary>API-nyckel</summary>
 
 ```
 solaris-2ngXkR6S02ijFrTP
+solaris-edVCa1E6zDZRztaq
+solaris-qqO7Lv5Hg29t5hqI
+solaris-BHRyCR5Lgznl28Tr
+solaris-4wOFSa0vV0WtlFYK
+solaris-NKsTcw3OPrMQPoSz
 ```
 </details>
 
@@ -81,7 +86,7 @@ solaris-2ngXkR6S02ijFrTP
 
 För *Godkänt*: 
 + All UI-design är gjord med CSS (bilder är inte tillåtna)
-+ Koden innehåller kommentarer som förklarar 
++ Koden innehåller kommentarer som förklarar vad den gör 
 
 För *Väl Godkänt*:
 + Samtliga kriterier för Godkänt är uppfyllda. 
