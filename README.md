@@ -84,14 +84,25 @@ solaris-NKsTcw3OPrMQPoSz
 
 ## Bedömning
 
-För *Godkänt*: 
+### För *Godkänt*: 
 + All UI-design är gjord med CSS (bilder är inte tillåtna)
++ Använt HTML, CSS och Vanilla JS
++ Kan söka på planeter med hjälp av textsök
 + Koden innehåller kommentarer som förklarar vad den gör 
 
-För *Väl Godkänt*:
+### För *Väl Godkänt*:
 + Samtliga kriterier för Godkänt är uppfyllda. 
 + Koden är uppdelad i moduler med en kommentar i varje modul som förklarar dess syfte.
 + API-nyckeln hämtas med metoden POST (den är *inte* hårdkodad)
++ Pagination-funktionalitet: Användaren kan bläddra mellan olika sidor av sökresultaten
+
+### Level-ups:
++ Local storage och visa ny sida med vald planet
++ Effekter på planeterna (t ex: rotation vid hover, fina slides vid inladdning av planet)
++ Felhantering där felkod presenteras användaren
++ Extra info om planeterna
++ Något eget kreativt och unikt
+
 
 ## Inlämning
 
