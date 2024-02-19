@@ -91,7 +91,7 @@ För *Godkänt*:
 För *Väl Godkänt*:
 + Samtliga kriterier för Godkänt är uppfyllda. 
 + Koden är uppdelad i moduler med en kommentar i varje modul som förklarar dess syfte.
-+ API:nyckeln hämtas med metoden POST (den är *inte* hårdkodad)
++ API-nyckeln hämtas med metoden POST (den är *inte* hårdkodad)
 
 ## Inlämning
 
