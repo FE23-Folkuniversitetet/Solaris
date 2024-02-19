@@ -33,10 +33,13 @@ let resp = await fetch('https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
     headers: {'x-zocom', '<solaris-key-here>'}
 })
 ```
-**Godkänt**
+<details>
+  <summary>API-nyckel (solaris-key)</summary>
+
 ```
-API-nyckel/solaris-key: solaris-2ngXkR6S02ijFrTP
+solaris-2ngXkR6S02ijFrTP
 ```
+</details>
 
 ## Modell
 |egenskap|datatyp|enhet|
